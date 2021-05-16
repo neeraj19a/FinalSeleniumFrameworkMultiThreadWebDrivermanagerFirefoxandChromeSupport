@@ -1,6 +1,4 @@
-# Miro-Assignment
 
- Web application with url https://miro.com
 
 #  Technologies and Libraries Used
 
@@ -114,7 +112,6 @@ Both these Retry and RetryListenerClass class helps in rerun the Failed,Broken T
 
 ## How to Run Test cases:
 
-**All Test Cases for Miro Login Page are written in MiroTest class (src/test/java/testcases/MiroTest.java)**
 
 Go To **TestNG.xml** file present under path( src/test/TestNG.xml)
 
