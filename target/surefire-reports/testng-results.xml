@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="26314" started-at="2021-05-16T19:35:13 SGT" finished-at="2021-05-16T19:35:40 SGT">
+    <groups>
+    </groups>
+    <test name="CHROME" duration-ms="23344" started-at="2021-05-16T19:35:13 SGT" finished-at="2021-05-16T19:35:37 SGT">
+      <class name="testcases.MiroTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testcases.MiroTest@1d5d5621]" name="beforeMethod" is-config="true" duration-ms="16628" started-at="2021-05-16T19:35:13 SGT" finished-at="2021-05-16T19:35:30 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyForgotPasswordLink()[pri:6, instance:testcases.MiroTest@1d5d5621]" name="verifyForgotPasswordLink" duration-ms="5279" started-at="2021-05-16T19:35:30 SGT" description="Verify ForgotPassword Link " finished-at="2021-05-16T19:35:36 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.String)[pri:0, instance:testcases.MiroTest@1d5d5621]" name="afterMethod" is-config="true" duration-ms="1061" started-at="2021-05-16T19:35:36 SGT" finished-at="2021-05-16T19:35:37 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordLink status=SUCCESS method=MiroTest.verifyForgotPasswordLink()[pri:6, instance:testcases.MiroTest@1d5d5621] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.MiroTest -->
+    </test> <!-- CHROME -->
+    <test name="FIREFOX" duration-ms="26314" started-at="2021-05-16T19:35:13 SGT" finished-at="2021-05-16T19:35:40 SGT">
+      <class name="testcases.MiroTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:testcases.MiroTest@78010562]" name="beforeMethod" is-config="true" duration-ms="17915" started-at="2021-05-16T19:35:13 SGT" finished-at="2021-05-16T19:35:31 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyForgotPasswordLink()[pri:6, instance:testcases.MiroTest@78010562]" name="verifyForgotPasswordLink" duration-ms="7164" started-at="2021-05-16T19:35:31 SGT" description="Verify ForgotPassword Link " finished-at="2021-05-16T19:35:39 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLink -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.String)[pri:0, instance:testcases.MiroTest@78010562]" name="afterMethod" is-config="true" duration-ms="1117" started-at="2021-05-16T19:35:39 SGT" finished-at="2021-05-16T19:35:40 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgotPasswordLink status=SUCCESS method=MiroTest.verifyForgotPasswordLink()[pri:6, instance:testcases.MiroTest@78010562] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.MiroTest -->
+    </test> <!-- FIREFOX -->
+  </suite> <!-- Suite1 -->
+</testng-results>
